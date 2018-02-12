@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aviso_de_privacidad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hyperion.pemex.pemexjuego.AvisoDePrivacidad">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="100"
+                    android:gravity="center"
+                    android:layout_height="50dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="80"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:src="@drawable/escudo"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="20"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:src="@drawable/escudo"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#007a4e">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:text="Aviso de Privacidad"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp">
+                    <!-- Aqui va la ruleta-->
+
+                    <ScrollView
+
+                        android:layout_width="match_parent"
+
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="15dp"
+                                    android:text="TÉRMINOS Y CONIDICIONES
+
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lacus erat, feugiat quis faucibus in, faucibus sit amet metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eget est dui. Donec et purus elementum, scelerisque justo sit amet, ultricies nibh. Nulla facilisis sapien quis turpis semper, at viverra purus pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere sem tortor, sit amet cursus sem viverra a.
+
+Integer dictum lorem et nunc laoreet, at rutrum nisi dictum. Nullam accumsan sem sed metus scelerisque vehicula. Nulla sodales viverra turpis vitae suscipit. Integer enim ex, ultricies eget pretium suscipit, interdum quis velit. Ut congue ipsum massa, vitae malesuada magna elementum sed. Vestibulum consectetur, mi at euismod porta, leo est interdum lectus, ut malesuada lacus est sit amet sapien. Proin blandit a mauris eu lacinia. Maecenas dignissim pellentesque dui id semper. Quisque posuere, mi sed sollicitudin pellentesque, nisl ex convallis neque, in blandit ipsum elit et diam. Aenean quis velit justo. Maecenas at egestas mi. Phasellus vel pellentesque lacus, at volutpat tellus. Maecenas imperdiet tempor interdum.
+
+Sed ante ante, lacinia sed est sed, semper lacinia est. Vestibulum finibus sagittis enim sed fermentum. Maecenas eget turpis ac mauris cursus consequat. Nunc pharetra arcu nec dui ullamcorper, vel cursus libero cursus. Proin sagittis convallis odio in varius. Nullam feugiat lorem at libero gravida, a dignissim sem egestas. In eleifend magna nec felis placerat, quis venenatis magna efficitur. Nunc et luctus neque, quis commodo neque. Nulla finibus, ligula in bibendum facilisis, tellus mauris consequat odio, ut efficitur sapien odio a quam. Nullam fermentum erat ut lectus mollis condimentum vitae sed mi."/>
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:weightSum="100">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40"
+                        android:gravity="center">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="#d93a3a"
+                            android:text="Regresar"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:gravity="center">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Todos los derechos reservados"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
